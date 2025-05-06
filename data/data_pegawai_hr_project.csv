@@ -1,101 +1,101 @@
-Nama Pegawai,Gender,Tanggal Masuk,Tanggal Resign,Status,Department,Jabatan,Performance (1-5),Jumlah Promosi,Feedback,Kepuasan
-Steven Reid,Laki-laki,2023-07-05,,Aktif,Finance,Senior Staff,1,2,Terlalu banyak tekanan kerja tanpa apresiasi.,Tidak Puas
-Sandra Johnson,Laki-laki,2024-03-08,,Aktif,HR,Senior Staff,1,0,Saya sangat senang bekerja di sini.,Puas
-Cassandra Anderson,Perempuan,2023-08-12,,Aktif,Finance,Manager,5,3,Terlalu banyak tekanan kerja tanpa apresiasi.,Tidak Puas
-Nicholas Smith,Laki-laki,2020-12-01,,Aktif,IT,Supervisor,2,3,Saya merasa dihargai atas kerja keras saya.,Puas
-Jennifer Walton,Perempuan,2023-01-07,2024-04-05,Resign,IT,Supervisor,4,0,Lingkungan kerja tidak mendukung perkembangan.,Tidak Puas
-Suzanne Thomas,Perempuan,2021-12-24,,Aktif,Operations,Supervisor,4,0,Saya sangat senang bekerja di sini.,Puas
-Nicole Coleman,Laki-laki,2024-06-14,2025-01-06,Resign,HR,Senior Staff,2,2,Peluang pengembangan karier di sini luar biasa.,Puas
-Angela Wiley,Laki-laki,2021-08-22,,Aktif,IT,Supervisor,3,1,Saya sangat senang bekerja di sini.,Puas
-Joanne Miller,Perempuan,2021-07-07,,Aktif,Finance,Manager,2,1,Lingkungan kerja yang positif dan mendukung.,Puas
-Sharon Charles,Perempuan,2021-09-12,,Aktif,HR,Supervisor,1,1,Lingkungan kerja yang positif dan mendukung.,Puas
-Jessica Bruce,Perempuan,2024-01-05,,Aktif,Finance,Manager,5,2,Lingkungan kerja tidak mendukung perkembangan.,Tidak Puas
-Brandon Willis III,Perempuan,2024-12-06,2025-03-24,Resign,Operations,Senior Manager,2,1,Lingkungan kerja tidak mendukung perkembangan.,Tidak Puas
-Scott Anderson,Perempuan,2024-01-25,,Aktif,Finance,Senior Staff,4,2,Saya sangat senang bekerja di sini.,Puas
-Dalton Jones,Laki-laki,2024-10-24,,Aktif,Marketing,Senior Manager,2,1,Peluang pengembangan karier di sini luar biasa.,Puas
-Christine Watson,Perempuan,2022-03-04,,Aktif,HR,Senior Manager,5,0,Kesempatan promosi sangat terbatas.,Tidak Puas
-Dr. Jesse Dean,Perempuan,2022-05-22,2022-10-19,Resign,Marketing,Staff,4,1,Kurangnya komunikasi dari manajemen.,Tidak Puas
-Patrick Castro,Laki-laki,2023-08-31,,Aktif,Operations,Senior Manager,1,2,Lingkungan kerja yang positif dan mendukung.,Puas
-Brittany Hughes,Perempuan,2025-04-04,,Aktif,Operations,Supervisor,5,0,Saya merasa dihargai atas kerja keras saya.,Puas
-Kevin Thomas,Laki-laki,2021-11-18,,Aktif,HR,Senior Staff,3,1,Peluang pengembangan karier di sini luar biasa.,Puas
-Michelle Gonzalez,Laki-laki,2022-10-22,,Aktif,Finance,Manager,5,1,Peluang pengembangan karier di sini luar biasa.,Puas
-Jonathan Lee,Perempuan,2022-02-20,,Aktif,IT,Manager,5,1,Peluang pengembangan karier di sini luar biasa.,Puas
-Pamela Evans,Laki-laki,2025-01-24,2025-03-26,Resign,IT,Staff,2,0,Saya sangat senang bekerja di sini.,Puas
-Crystal Barron,Perempuan,2021-08-09,2023-02-25,Resign,HR,Staff,1,1,Lingkungan kerja yang positif dan mendukung.,Puas
-Jessica Patel,Perempuan,2021-04-15,2025-02-27,Resign,Operations,Senior Staff,4,1,Peluang pengembangan karier di sini luar biasa.,Puas
-Christopher Zamora,Perempuan,2021-04-16,,Aktif,HR,Manager,2,0,Peluang pengembangan karier di sini luar biasa.,Puas
-Shawna Mason,Perempuan,2025-01-11,,Aktif,HR,Manager,1,0,Terlalu banyak tekanan kerja tanpa apresiasi.,Tidak Puas
-Anna Goodman,Laki-laki,2022-01-24,2023-01-19,Resign,Finance,Manager,2,3,Lingkungan kerja yang positif dan mendukung.,Puas
-Shannon Wright,Laki-laki,2021-09-08,,Aktif,Operations,Staff,1,3,Saya sangat senang bekerja di sini.,Puas
-Andrew Pham,Perempuan,2020-11-28,,Aktif,Marketing,Manager,2,1,Peluang pengembangan karier di sini luar biasa.,Puas
-Christopher Yates,Perempuan,2023-10-13,,Aktif,HR,Manager,2,3,Lingkungan kerja tidak mendukung perkembangan.,Tidak Puas
-Joel Ward,Perempuan,2024-05-04,2024-11-20,Resign,Finance,Senior Staff,5,3,Saya sangat senang bekerja di sini.,Puas
-Erica Garcia,Laki-laki,2023-01-18,,Aktif,IT,Staff,5,0,Lingkungan kerja yang positif dan mendukung.,Puas
-Kylie Pope,Laki-laki,2022-09-16,2022-11-08,Resign,Finance,Staff,5,0,Lingkungan kerja yang positif dan mendukung.,Puas
-William White,Laki-laki,2021-03-22,,Aktif,Operations,Senior Manager,5,1,Peluang pengembangan karier di sini luar biasa.,Puas
-Ana Brady,Perempuan,2024-10-10,,Aktif,IT,Senior Staff,5,2,Peluang pengembangan karier di sini luar biasa.,Puas
-Cassandra Soto,Laki-laki,2023-10-23,2025-01-22,Resign,IT,Staff,3,3,Saya sangat senang bekerja di sini.,Puas
-Kelly Silva,Laki-laki,2024-10-24,2025-03-28,Resign,Finance,Supervisor,2,2,Kesempatan promosi sangat terbatas.,Tidak Puas
-Theresa Sanchez,Laki-laki,2023-02-12,2025-01-13,Resign,Operations,Senior Manager,4,2,Saya merasa dihargai atas kerja keras saya.,Puas
-Krystal Carter,Laki-laki,2022-10-31,,Aktif,IT,Staff,1,1,Kurangnya komunikasi dari manajemen.,Tidak Puas
-Jennifer Mcgee,Perempuan,2021-07-18,2023-12-28,Resign,IT,Senior Staff,5,1,Saya merasa dihargai atas kerja keras saya.,Puas
-Christina Bowen DVM,Laki-laki,2024-08-28,,Aktif,Marketing,Supervisor,1,0,Lingkungan kerja yang positif dan mendukung.,Puas
-Robert Cox,Perempuan,2023-06-10,,Aktif,Marketing,Senior Manager,3,1,Saya sangat senang bekerja di sini.,Puas
-Felicia Kirk,Laki-laki,2020-06-13,2023-11-04,Resign,IT,Senior Manager,2,0,Saya sangat senang bekerja di sini.,Puas
-Sarah Schaefer,Laki-laki,2022-11-15,,Aktif,Finance,Senior Staff,1,2,Peluang pengembangan karier di sini luar biasa.,Puas
-Henry Miller,Perempuan,2022-03-25,,Aktif,Finance,Senior Staff,2,1,Saya merasa dihargai atas kerja keras saya.,Puas
-Nathan Fox,Laki-laki,2020-07-21,,Aktif,IT,Senior Staff,4,1,Saya sangat senang bekerja di sini.,Puas
-Kevin Lang,Perempuan,2024-02-23,,Aktif,Marketing,Supervisor,2,1,Kurangnya komunikasi dari manajemen.,Tidak Puas
-Kendra Cordova,Laki-laki,2022-03-11,2024-06-04,Resign,IT,Supervisor,2,3,Kesempatan promosi sangat terbatas.,Tidak Puas
-Peter Hernandez,Laki-laki,2023-05-01,,Aktif,Operations,Supervisor,5,3,Saya merasa dihargai atas kerja keras saya.,Puas
-Marilyn Wong,Perempuan,2020-06-28,2021-10-21,Resign,HR,Senior Manager,3,0,Saya merasa dihargai atas kerja keras saya.,Puas
-Christina Kerr,Laki-laki,2023-11-24,,Aktif,Marketing,Senior Manager,5,0,Peluang pengembangan karier di sini luar biasa.,Puas
-Breanna Anderson,Laki-laki,2023-03-26,2023-08-17,Resign,IT,Manager,5,1,Kesempatan promosi sangat terbatas.,Tidak Puas
-Karen Armstrong,Perempuan,2021-10-30,,Aktif,Operations,Supervisor,1,2,Saya merasa dihargai atas kerja keras saya.,Puas
-Jonathan Castro,Perempuan,2022-02-26,,Aktif,Marketing,Senior Staff,2,3,Saya sangat senang bekerja di sini.,Puas
-Eric Gonzalez,Perempuan,2021-06-17,,Aktif,Operations,Senior Manager,2,3,Peluang pengembangan karier di sini luar biasa.,Puas
-Daniel Johnson,Perempuan,2024-04-09,,Aktif,Finance,Staff,5,3,Saya merasa dihargai atas kerja keras saya.,Puas
-Edward Lindsey,Laki-laki,2023-01-15,2025-01-23,Resign,Finance,Senior Staff,2,2,Lingkungan kerja yang positif dan mendukung.,Puas
-Mr. Brian Bailey,Laki-laki,2021-07-22,,Aktif,Marketing,Manager,5,0,Lingkungan kerja tidak mendukung perkembangan.,Tidak Puas
-Edward Gutierrez,Perempuan,2021-03-23,,Aktif,HR,Staff,2,1,Peluang pengembangan karier di sini luar biasa.,Puas
-Nicholas Edwards,Perempuan,2022-10-04,2023-01-30,Resign,Marketing,Senior Staff,2,0,Saya merasa dihargai atas kerja keras saya.,Puas
-Karen Mata,Laki-laki,2021-09-16,,Aktif,Operations,Manager,4,3,Lingkungan kerja tidak mendukung perkembangan.,Tidak Puas
-Gina Levine,Laki-laki,2023-06-21,,Aktif,Operations,Manager,2,2,Saya sangat senang bekerja di sini.,Puas
-Adam Bennett,Laki-laki,2021-06-05,,Aktif,IT,Supervisor,2,2,Lingkungan kerja yang positif dan mendukung.,Puas
-Christine Hughes,Perempuan,2020-12-19,,Aktif,HR,Manager,2,1,Peluang pengembangan karier di sini luar biasa.,Puas
-Melissa Soto,Laki-laki,2021-03-20,,Aktif,Marketing,Senior Manager,2,3,Lingkungan kerja tidak mendukung perkembangan.,Tidak Puas
-Kelly Cruz,Laki-laki,2024-05-24,,Aktif,Marketing,Manager,3,2,Saya merasa dihargai atas kerja keras saya.,Puas
-Christian Melton,Laki-laki,2021-12-27,,Aktif,IT,Manager,1,3,Kurangnya komunikasi dari manajemen.,Tidak Puas
-Nicole Villa,Laki-laki,2021-10-03,,Aktif,Marketing,Senior Manager,5,0,Peluang pengembangan karier di sini luar biasa.,Puas
-Crystal Scott,Perempuan,2025-02-07,2025-03-25,Resign,HR,Supervisor,4,1,Peluang pengembangan karier di sini luar biasa.,Puas
-Casey Bailey,Laki-laki,2021-09-06,,Aktif,Marketing,Supervisor,4,2,Saya sangat senang bekerja di sini.,Puas
-Justin Moran,Laki-laki,2023-10-12,,Aktif,HR,Staff,3,1,Kurangnya komunikasi dari manajemen.,Tidak Puas
-Dr. Theodore Jackson Jr.,Perempuan,2021-09-07,,Aktif,Finance,Senior Staff,5,1,Lingkungan kerja yang positif dan mendukung.,Puas
-Vicki Nelson,Laki-laki,2024-11-22,,Aktif,Finance,Senior Manager,3,2,Kurangnya komunikasi dari manajemen.,Tidak Puas
-Daniel White,Perempuan,2024-06-06,,Aktif,IT,Senior Manager,1,0,Lingkungan kerja yang positif dan mendukung.,Puas
-Taylor Lin,Laki-laki,2022-03-28,2024-07-14,Resign,IT,Senior Manager,2,0,Terlalu banyak tekanan kerja tanpa apresiasi.,Tidak Puas
-Jeremy Schneider,Perempuan,2020-11-04,,Aktif,HR,Senior Manager,4,2,Peluang pengembangan karier di sini luar biasa.,Puas
-Stephanie Oconnell,Laki-laki,2023-11-10,,Aktif,IT,Manager,1,3,Saya merasa dihargai atas kerja keras saya.,Puas
-Dawn Castillo,Perempuan,2022-03-12,,Aktif,Marketing,Manager,5,3,Lingkungan kerja yang positif dan mendukung.,Puas
-Anna Smith,Perempuan,2022-01-28,,Aktif,Marketing,Senior Staff,1,2,Peluang pengembangan karier di sini luar biasa.,Puas
-Eric Smith,Laki-laki,2022-11-08,,Aktif,Finance,Manager,4,2,Saya merasa dihargai atas kerja keras saya.,Puas
-Tracy Andrews,Laki-laki,2020-08-24,,Aktif,Operations,Staff,5,2,Peluang pengembangan karier di sini luar biasa.,Puas
-John Garner,Laki-laki,2021-04-20,,Aktif,Marketing,Manager,2,3,Lingkungan kerja yang positif dan mendukung.,Puas
-Colleen Brown,Perempuan,2023-02-21,,Aktif,Operations,Supervisor,2,2,Saya merasa dihargai atas kerja keras saya.,Puas
-Laura Herrera,Perempuan,2023-09-13,,Aktif,IT,Manager,5,2,Lingkungan kerja yang positif dan mendukung.,Puas
-Tanya Mullen,Laki-laki,2023-02-15,2024-03-26,Resign,HR,Senior Manager,2,2,Peluang pengembangan karier di sini luar biasa.,Puas
-Angela Shelton,Perempuan,2023-11-16,2024-07-04,Resign,HR,Senior Staff,5,2,Lingkungan kerja yang positif dan mendukung.,Puas
-Teresa Clark,Laki-laki,2024-12-04,,Aktif,IT,Staff,5,1,Lingkungan kerja yang positif dan mendukung.,Puas
-Christopher Sloan,Perempuan,2023-01-07,,Aktif,HR,Senior Manager,4,0,Peluang pengembangan karier di sini luar biasa.,Puas
-Catherine Gutierrez,Laki-laki,2024-09-21,,Aktif,Marketing,Staff,1,2,Saya sangat senang bekerja di sini.,Puas
-Heidi Hutchinson,Perempuan,2022-01-17,,Aktif,Finance,Senior Manager,1,1,Lingkungan kerja yang positif dan mendukung.,Puas
-Mary White,Perempuan,2022-04-22,2023-12-18,Resign,Operations,Manager,4,1,Kesempatan promosi sangat terbatas.,Tidak Puas
-David Henry,Laki-laki,2024-12-31,,Aktif,Operations,Senior Manager,4,2,Saya sangat senang bekerja di sini.,Puas
-Lauren Johnson,Laki-laki,2023-06-17,,Aktif,IT,Staff,2,1,Saya sangat senang bekerja di sini.,Puas
-Christina Harmon,Perempuan,2023-12-24,2024-09-22,Resign,Operations,Manager,4,3,Saya merasa dihargai atas kerja keras saya.,Puas
-John Smith,Laki-laki,2020-06-03,,Aktif,Finance,Supervisor,4,0,Lingkungan kerja yang positif dan mendukung.,Puas
-John Petty,Laki-laki,2020-12-21,,Aktif,HR,Staff,3,1,Kesempatan promosi sangat terbatas.,Tidak Puas
-Sandy Hansen,Perempuan,2021-07-01,,Aktif,Marketing,Supervisor,4,2,Saya sangat senang bekerja di sini.,Puas
-Wendy Smith,Laki-laki,2021-03-14,,Aktif,HR,Staff,3,2,Terlalu banyak tekanan kerja tanpa apresiasi.,Tidak Puas
-James Williams,Perempuan,2023-10-31,,Aktif,Finance,Manager,3,0,Kurangnya komunikasi dari manajemen.,Tidak Puas
-Kevin Williams,Perempuan,2024-07-01,,Aktif,HR,Manager,4,3,Saya merasa dihargai atas kerja keras saya.,Puas
+Nama Pegawai,Gender,Tanggal Masuk,Tanggal Resign,Status,Department,Jabatan,Performance (1-5),Jumlah Promosi,Feedback
+Steven Reid,Laki-laki,7/5/2023,,Aktif,Finance,Senior Staff,1,2,Terlalu banyak tekanan kerja tanpa apresiasi.
+Sandra Johnson,Laki-laki,3/8/2024,,Aktif,HR,Senior Staff,1,0,Saya sangat senang bekerja di sini.
+Cassandra Anderson,Perempuan,8/12/2023,,Aktif,Finance,Manager,5,3,Terlalu banyak tekanan kerja tanpa apresiasi.
+Nicholas Smith,Laki-laki,12/1/2020,,Aktif,IT,Supervisor,2,3,Saya merasa dihargai atas kerja keras saya.
+Jennifer Walton,Perempuan,1/7/2023,4/5/2024,Resign,IT,Supervisor,4,0,Lingkungan kerja tidak mendukung perkembangan.
+Suzanne Thomas,Perempuan,12/24/2021,,Aktif,Operations,Supervisor,4,0,Saya sangat senang bekerja di sini.
+Nicole Coleman,Laki-laki,6/14/2024,1/6/2025,Resign,HR,Senior Staff,2,2,Peluang pengembangan karier di sini luar biasa.
+Angela Wiley,Laki-laki,8/22/2021,,Aktif,IT,Supervisor,3,1,Saya sangat senang bekerja di sini.
+Joanne Miller,Perempuan,7/7/2021,,Aktif,Finance,Manager,2,1,Lingkungan kerja yang positif dan mendukung.
+Sharon Charles,Perempuan,9/12/2021,,Aktif,HR,Supervisor,1,1,Lingkungan kerja yang positif dan mendukung.
+Jessica Bruce,Perempuan,1/5/2024,,Aktif,Finance,Manager,5,2,Lingkungan kerja tidak mendukung perkembangan.
+Brandon Willis III,Perempuan,12/6/2024,3/24/2025,Resign,Operations,Senior Manager,2,1,Lingkungan kerja tidak mendukung perkembangan.
+Scott Anderson,Perempuan,1/25/2024,,Aktif,Finance,Senior Staff,4,2,Saya sangat senang bekerja di sini.
+Dalton Jones,Laki-laki,10/24/2024,,Aktif,Marketing,Senior Manager,2,1,Peluang pengembangan karier di sini luar biasa.
+Christine Watson,Perempuan,3/4/2022,,Aktif,HR,Senior Manager,5,0,Kesempatan promosi sangat terbatas.
+Dr. Jesse Dean,Perempuan,5/22/2022,10/19/2022,Resign,Marketing,Staff,4,1,Kurangnya komunikasi dari manajemen.
+Patrick Castro,Laki-laki,8/31/2023,,Aktif,Operations,Senior Manager,1,2,Lingkungan kerja yang positif dan mendukung.
+Brittany Hughes,Perempuan,4/4/2025,,Aktif,Operations,Supervisor,5,0,Saya merasa dihargai atas kerja keras saya.
+Kevin Thomas,Laki-laki,11/18/2021,,Aktif,HR,Senior Staff,3,1,Peluang pengembangan karier di sini luar biasa.
+Michelle Gonzalez,Laki-laki,10/22/2022,,Aktif,Finance,Manager,5,1,Peluang pengembangan karier di sini luar biasa.
+Jonathan Lee,Perempuan,2/20/2022,,Aktif,IT,Manager,5,1,Peluang pengembangan karier di sini luar biasa.
+Pamela Evans,Laki-laki,1/24/2025,3/26/2025,Resign,IT,Staff,2,0,Saya sangat senang bekerja di sini.
+Crystal Barron,Perempuan,8/9/2021,2/25/2023,Resign,HR,Staff,1,1,Lingkungan kerja yang positif dan mendukung.
+Jessica Patel,Perempuan,4/15/2021,2/27/2025,Resign,Operations,Senior Staff,4,1,Peluang pengembangan karier di sini luar biasa.
+Christopher Zamora,Perempuan,4/16/2021,,Aktif,HR,Manager,2,0,Peluang pengembangan karier di sini luar biasa.
+Shawna Mason,Perempuan,1/11/2025,,Aktif,HR,Manager,1,0,Terlalu banyak tekanan kerja tanpa apresiasi.
+Anna Goodman,Laki-laki,1/24/2022,1/19/2023,Resign,Finance,Manager,2,3,Lingkungan kerja yang positif dan mendukung.
+Shannon Wright,Laki-laki,9/8/2021,,Aktif,Operations,Staff,1,3,Saya sangat senang bekerja di sini.
+Andrew Pham,Perempuan,11/28/2020,,Aktif,Marketing,Manager,2,1,Peluang pengembangan karier di sini luar biasa.
+Christopher Yates,Perempuan,10/13/2023,,Aktif,HR,Manager,2,3,Lingkungan kerja tidak mendukung perkembangan.
+Joel Ward,Perempuan,5/4/2024,11/20/2024,Resign,Finance,Senior Staff,5,3,Saya sangat senang bekerja di sini.
+Erica Garcia,Laki-laki,1/18/2023,,Aktif,IT,Staff,5,0,Lingkungan kerja yang positif dan mendukung.
+Kylie Pope,Laki-laki,9/16/2022,11/8/2022,Resign,Finance,Staff,5,0,Lingkungan kerja yang positif dan mendukung.
+William White,Laki-laki,3/22/2021,,Aktif,Operations,Senior Manager,5,1,Peluang pengembangan karier di sini luar biasa.
+Ana Brady,Perempuan,10/10/2024,,Aktif,IT,Senior Staff,5,2,Peluang pengembangan karier di sini luar biasa.
+Cassandra Soto,Laki-laki,10/23/2023,1/22/2025,Resign,IT,Staff,3,3,Saya sangat senang bekerja di sini.
+Kelly Silva,Laki-laki,10/24/2024,3/28/2025,Resign,Finance,Supervisor,2,2,Kesempatan promosi sangat terbatas.
+Theresa Sanchez,Laki-laki,2/12/2023,1/13/2025,Resign,Operations,Senior Manager,4,2,Saya merasa dihargai atas kerja keras saya.
+Krystal Carter,Laki-laki,10/31/2022,,Aktif,IT,Staff,1,1,Kurangnya komunikasi dari manajemen.
+Jennifer Mcgee,Perempuan,7/18/2021,12/28/2023,Resign,IT,Senior Staff,5,1,Saya merasa dihargai atas kerja keras saya.
+Christina Bowen DVM,Laki-laki,8/28/2024,,Aktif,Marketing,Supervisor,1,0,Lingkungan kerja yang positif dan mendukung.
+Robert Cox,Perempuan,6/10/2023,,Aktif,Marketing,Senior Manager,3,1,Saya sangat senang bekerja di sini.
+Felicia Kirk,Laki-laki,6/13/2020,11/4/2023,Resign,IT,Senior Manager,2,0,Saya sangat senang bekerja di sini.
+Sarah Schaefer,Laki-laki,11/15/2022,,Aktif,Finance,Senior Staff,1,2,Peluang pengembangan karier di sini luar biasa.
+Henry Miller,Perempuan,3/25/2022,,Aktif,Finance,Senior Staff,2,1,Saya merasa dihargai atas kerja keras saya.
+Nathan Fox,Laki-laki,7/21/2020,,Aktif,IT,Senior Staff,4,1,Saya sangat senang bekerja di sini.
+Kevin Lang,Perempuan,2/23/2024,,Aktif,Marketing,Supervisor,2,1,Kurangnya komunikasi dari manajemen.
+Kendra Cordova,Laki-laki,3/11/2022,6/4/2024,Resign,IT,Supervisor,2,3,Kesempatan promosi sangat terbatas.
+Peter Hernandez,Laki-laki,5/1/2023,,Aktif,Operations,Supervisor,5,3,Saya merasa dihargai atas kerja keras saya.
+Marilyn Wong,Perempuan,6/28/2020,10/21/2021,Resign,HR,Senior Manager,3,0,Saya merasa dihargai atas kerja keras saya.
+Christina Kerr,Laki-laki,11/24/2023,,Aktif,Marketing,Senior Manager,5,0,Peluang pengembangan karier di sini luar biasa.
+Breanna Anderson,Laki-laki,3/26/2023,8/17/2023,Resign,IT,Manager,5,1,Kesempatan promosi sangat terbatas.
+Karen Armstrong,Perempuan,10/30/2021,,Aktif,Operations,Supervisor,1,2,Saya merasa dihargai atas kerja keras saya.
+Jonathan Castro,Perempuan,2/26/2022,,Aktif,Marketing,Senior Staff,2,3,Saya sangat senang bekerja di sini.
+Eric Gonzalez,Perempuan,6/17/2021,,Aktif,Operations,Senior Manager,2,3,Peluang pengembangan karier di sini luar biasa.
+Daniel Johnson,Perempuan,4/9/2024,,Aktif,Finance,Staff,5,3,Saya merasa dihargai atas kerja keras saya.
+Edward Lindsey,Laki-laki,1/15/2023,1/23/2025,Resign,Finance,Senior Staff,2,2,Lingkungan kerja yang positif dan mendukung.
+Mr. Brian Bailey,Laki-laki,7/22/2021,,Aktif,Marketing,Manager,5,0,Lingkungan kerja tidak mendukung perkembangan.
+Edward Gutierrez,Perempuan,3/23/2021,,Aktif,HR,Staff,2,1,Peluang pengembangan karier di sini luar biasa.
+Nicholas Edwards,Perempuan,10/4/2022,1/30/2023,Resign,Marketing,Senior Staff,2,0,Saya merasa dihargai atas kerja keras saya.
+Karen Mata,Laki-laki,9/16/2021,,Aktif,Operations,Manager,4,3,Lingkungan kerja tidak mendukung perkembangan.
+Gina Levine,Laki-laki,6/21/2023,,Aktif,Operations,Manager,2,2,Saya sangat senang bekerja di sini.
+Adam Bennett,Laki-laki,6/5/2021,,Aktif,IT,Supervisor,2,2,Lingkungan kerja yang positif dan mendukung.
+Christine Hughes,Perempuan,12/19/2020,,Aktif,HR,Manager,2,1,Peluang pengembangan karier di sini luar biasa.
+Melissa Soto,Laki-laki,3/20/2021,,Aktif,Marketing,Senior Manager,2,3,Lingkungan kerja tidak mendukung perkembangan.
+Kelly Cruz,Laki-laki,5/24/2024,,Aktif,Marketing,Manager,3,2,Saya merasa dihargai atas kerja keras saya.
+Christian Melton,Laki-laki,12/27/2021,,Aktif,IT,Manager,1,3,Kurangnya komunikasi dari manajemen.
+Nicole Villa,Laki-laki,10/3/2021,,Aktif,Marketing,Senior Manager,5,0,Peluang pengembangan karier di sini luar biasa.
+Crystal Scott,Perempuan,2/7/2025,3/25/2025,Resign,HR,Supervisor,4,1,Peluang pengembangan karier di sini luar biasa.
+Casey Bailey,Laki-laki,9/6/2021,,Aktif,Marketing,Supervisor,4,2,Saya sangat senang bekerja di sini.
+Justin Moran,Laki-laki,10/12/2023,,Aktif,HR,Staff,3,1,Kurangnya komunikasi dari manajemen.
+Dr. Theodore Jackson Jr.,Perempuan,9/7/2021,,Aktif,Finance,Senior Staff,5,1,Lingkungan kerja yang positif dan mendukung.
+Vicki Nelson,Laki-laki,11/22/2024,,Aktif,Finance,Senior Manager,3,2,Kurangnya komunikasi dari manajemen.
+Daniel White,Perempuan,6/6/2024,,Aktif,IT,Senior Manager,1,0,Lingkungan kerja yang positif dan mendukung.
+Taylor Lin,Laki-laki,3/28/2022,7/14/2024,Resign,IT,Senior Manager,2,0,Terlalu banyak tekanan kerja tanpa apresiasi.
+Jeremy Schneider,Perempuan,11/4/2020,,Aktif,HR,Senior Manager,4,2,Peluang pengembangan karier di sini luar biasa.
+Stephanie Oconnell,Laki-laki,11/10/2023,,Aktif,IT,Manager,1,3,Saya merasa dihargai atas kerja keras saya.
+Dawn Castillo,Perempuan,3/12/2022,,Aktif,Marketing,Manager,5,3,Lingkungan kerja yang positif dan mendukung.
+Anna Smith,Perempuan,1/28/2022,,Aktif,Marketing,Senior Staff,1,2,Peluang pengembangan karier di sini luar biasa.
+Eric Smith,Laki-laki,11/8/2022,,Aktif,Finance,Manager,4,2,Saya merasa dihargai atas kerja keras saya.
+Tracy Andrews,Laki-laki,8/24/2020,,Aktif,Operations,Staff,5,2,Peluang pengembangan karier di sini luar biasa.
+John Garner,Laki-laki,4/20/2021,,Aktif,Marketing,Manager,2,3,Lingkungan kerja yang positif dan mendukung.
+Colleen Brown,Perempuan,2/21/2023,,Aktif,Operations,Supervisor,2,2,Saya merasa dihargai atas kerja keras saya.
+Laura Herrera,Perempuan,9/13/2023,,Aktif,IT,Manager,5,2,Lingkungan kerja yang positif dan mendukung.
+Tanya Mullen,Laki-laki,2/15/2023,3/26/2024,Resign,HR,Senior Manager,2,2,Peluang pengembangan karier di sini luar biasa.
+Angela Shelton,Perempuan,11/16/2023,7/4/2024,Resign,HR,Senior Staff,5,2,Lingkungan kerja yang positif dan mendukung.
+Teresa Clark,Laki-laki,12/4/2024,,Aktif,IT,Staff,5,1,Lingkungan kerja yang positif dan mendukung.
+Christopher Sloan,Perempuan,1/7/2023,,Aktif,HR,Senior Manager,4,0,Peluang pengembangan karier di sini luar biasa.
+Catherine Gutierrez,Laki-laki,9/21/2024,,Aktif,Marketing,Staff,1,2,Saya sangat senang bekerja di sini.
+Heidi Hutchinson,Perempuan,1/17/2022,,Aktif,Finance,Senior Manager,1,1,Lingkungan kerja yang positif dan mendukung.
+Mary White,Perempuan,4/22/2022,12/18/2023,Resign,Operations,Manager,4,1,Kesempatan promosi sangat terbatas.
+David Henry,Laki-laki,12/31/2024,,Aktif,Operations,Senior Manager,4,2,Saya sangat senang bekerja di sini.
+Lauren Johnson,Laki-laki,6/17/2023,,Aktif,IT,Staff,2,1,Saya sangat senang bekerja di sini.
+Christina Harmon,Perempuan,12/24/2023,9/22/2024,Resign,Operations,Manager,4,3,Saya merasa dihargai atas kerja keras saya.
+John Smith,Laki-laki,6/3/2020,,Aktif,Finance,Supervisor,4,0,Lingkungan kerja yang positif dan mendukung.
+John Petty,Laki-laki,12/21/2020,,Aktif,HR,Staff,3,1,Kesempatan promosi sangat terbatas.
+Sandy Hansen,Perempuan,7/1/2021,,Aktif,Marketing,Supervisor,4,2,Saya sangat senang bekerja di sini.
+Wendy Smith,Laki-laki,3/14/2021,,Aktif,HR,Staff,3,2,Terlalu banyak tekanan kerja tanpa apresiasi.
+James Williams,Perempuan,10/31/2023,,Aktif,Finance,Manager,3,0,Kurangnya komunikasi dari manajemen.
+Kevin Williams,Perempuan,7/1/2024,,Aktif,HR,Manager,4,3,Saya merasa dihargai atas kerja keras saya.

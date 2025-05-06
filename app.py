@@ -56,9 +56,20 @@ df_bulan = pd.DataFrame({
 df_bulan = df_bulan.reset_index()
 df_bulan['TahunBulan'] = df_bulan['index'].dt.to_timestamp()
 
+# Filter data berdasarkan tahun_tertentu
+df_bulan_filtered = df_bulan[df_bulan['TahunBulan'].dt.year == tahun_tertentu]
+
 ## view perbandingan yang resign dan join
-fig = px.line(df_bulan, x='TahunBulan', y=['Masuk','Keluar'], markers=True,
+fig = px.line(df_bulan_filtered, x='TahunBulan', y=['Masuk','Keluar'], markers=True,
               title=f"Pergerakan Pegawai Masuk dan Keluar Tahun {tahun_tertentu}")
+
+
+fig.for_each_trace(
+  lambda t: t.update(line=dict(color='green')) if t.name == 'Masuk' else t.update(line=dict(color='red'))
+)
+# fig.for_each_trace(
+#   lambda t: t.update(line=dict(color='green')) if t.name == 'Masuk' else t.update(line=dict(color='red'))
+# )
 
 st.plotly_chart(fig)
 
@@ -89,22 +100,29 @@ aktif_di_tahun = df[
     )
 ]
 
-# Hitung jumlah pegawai aktif per direktorat
-jumlah_per_departemen = aktif_di_tahun.groupby('Department')['Nama Pegawai'].count().reset_index()
-jumlah_per_departemen = jumlah_per_departemen.rename(columns={'Nama Pegawai': 'Jumlah Pegawai'})
+
+col1, col2 = st.columns(2)
+with col1:
+
+  # Hitung jumlah pegawai aktif per direktorat
+  jumlah_per_departemen = aktif_di_tahun.groupby('Department')['Nama Pegawai'].count().reset_index()
+  jumlah_per_departemen = jumlah_per_departemen.rename(columns={'Nama Pegawai': 'Jumlah Pegawai'})
+
+  st.write(f"Pegawai Aktif pada Tahun {tahun_tertentu}:")
+  st.dataframe(aktif_di_tahun[['Nama Pegawai', 'Tanggal Masuk', 'Tanggal Resign', 'Status', 'Department', 'Jabatan']])
+
+with col2:
 
 
-st.write(f"Pegawai Aktif pada Tahun {tahun_tertentu}:")
-st.dataframe(aktif_di_tahun[['Nama Pegawai', 'Tanggal Masuk', 'Tanggal Resign', 'Status', 'Department', 'Jabatan']])
+  fig_dept = px.bar(jumlah_per_departemen,
+                    x='Department',
+                    y='Jumlah Pegawai',
+                    color='Department',
+                    title=f"Jumlah pegawai Aktif per Departemen di Tahun {tahun_tertentu}",
+                    text='Jumlah Pegawai'
+                    )
+  fig_dept.update_layout(
+    yaxis=dict(range=[0,80])
+  )
 
-fig_dept = px.bar(jumlah_per_departemen,
-                  x='Department',
-                  y='Jumlah Pegawai',
-                  title=f"Jumlah pegawai Aktif per Departemen di Tahun {tahun_tertentu}",
-                  text='Jumlah Pegawai'
-                  )
-fig_dept.update_layout(
-  yaxis=dict(range=[0,80])
-)
-
-st.plotly_chart(fig_dept, use_container_width=True)
+  st.plotly_chart(fig_dept, use_container_width=True)
