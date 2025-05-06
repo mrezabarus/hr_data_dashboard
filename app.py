@@ -9,6 +9,7 @@ df = pd.read_csv('data/data_pegawai_hr_project.csv')
 ## Filter tahun
 tahun_tertentu = st.number_input("Pilih tahun", min_value=2000, max_value=2024, value=2023)
 
+
 df['Tanggal Masuk'] = pd.to_datetime(df['Tanggal Masuk'])
 df['Tahun Masuk'] = df['Tanggal Masuk'].dt.year
 df['Bulan Masuk'] = df['Tanggal Masuk'].dt.month
@@ -18,7 +19,8 @@ df['Tahun Keluar'] = df['Tanggal Resign'].dt.year
 df['Bulan Keluar'] = df['Tanggal Resign'].dt.month
 
 ## menampilkan pergerakan data pegawai
-pergerakan = df[(df['Tahun Masuk'] == tahun_tertentu) | ((df['Tahun Keluar'] == tahun_tertentu) )]
+pergerakan_join = df[(df['Tahun Masuk'] == tahun_tertentu) ]
+pergerakan_resign = df[((df['Tahun Keluar'] == tahun_tertentu) )]
 
 ######## LINE CHART Resign And Join #########
 
@@ -48,38 +50,61 @@ df_bulan = pd.DataFrame({
 }).fillna(0)
 
 
+
+
 # Reset index biar bisa di plot
 df_bulan = df_bulan.reset_index()
 df_bulan['TahunBulan'] = df_bulan['index'].dt.to_timestamp()
 
+## view perbandingan yang resign dan join
+fig = px.line(df_bulan, x='TahunBulan', y=['Masuk','Keluar'], markers=True,
+              title=f"Pergerakan Pegawai Masuk dan Keluar Tahun {tahun_tertentu}")
+
+st.plotly_chart(fig)
+
 col1, col2 = st.columns(2)
 
 with col1:
-  fig = px.line(df_bulan, x='TahunBulan', y=['Masuk','Keluar'], markers=True,
-                title=f"Pergerakan Pegawai Masuk dan Keluar Tahun {tahun_tertentu}")
+  
 
-  st.plotly_chart(fig)
+  st.write(f"List Pegawai Join Tahun {tahun_tertentu}:")
+  st.dataframe(pergerakan_join)
 
-
-# ## filter data berdasarkan tahun tertentu
-# df_filtered = df[(df['Tahun Masuk'] <= tahun_tertentu) & ((df['Tahun Keluar'] >= tahun_tertentu )| df['Status'] == 'Aktif')]
-
-# # Hitung jumlah pegawai per bulan
-# df_filtered['Bulan Masuk'] = pd.to_datetime(df_filtered['Tahun Masuk'].astype(str) + '-' + df_filtered['Bulan Masuk'].astype(str), format='%Y-%m')
-# df_filtered['Bulan Keluar'] = pd.to_datetime(df_filtered['Tahun Keluar'].astype(str) + '-' + df_filtered['Bulan Keluar'].astype(str), format='%Y-%m')
-
-# #hitung pegawai perbulan
-# df_filtered['Pergerakan'] = df_filtered.apply(lambda x: 'Masuk' if pd.notna(x['Bulan Masuk']) else ('Keluar' if pd.notna(x['Bulan Keluar']) else 'Aktif'), axis=1)
-
-# #gabungkan berdasarkan bulan dan hitung jumlah pegawai perbulan
-# df_bulan = df_filtered.groupby(df_filtered['Bulan Masuk'].dt.to_period('M'))['Pergerakan'].value_counts().unstack().fillna()
-
-# ## Membuat diagram baris
-# fig = px.line(df_bulan, x=df_bulan.index, y=df_bulan.columns, title=f"Pergerakan Pegawai per Bulan Tahun {tahun_tertentu}")
-# st.plotly_chart(fig)
-
+ 
 
 ## Tampilkan data pergerakan
 with col2:
-  st.write(f"Pergerakan Pegawai Tahun {tahun_tertentu}:")
-  st.dataframe(pergerakan)
+
+  st.write(f"List Pegawai Resign Tahun {tahun_tertentu}:")
+  st.dataframe(pergerakan_resign)
+  
+
+
+# Filter pegawai aktif di tahun tersebut
+aktif_di_tahun = df[
+    (df['Tahun Masuk'] <= tahun_tertentu) &
+    (
+        (df['Tahun Keluar'].isna()) |  # Belum resign
+        (df['Tahun Keluar'] > tahun_tertentu)  # Resign setelah tahun tersebut
+    )
+]
+
+# Hitung jumlah pegawai aktif per direktorat
+jumlah_per_departemen = aktif_di_tahun.groupby('Department')['Nama Pegawai'].count().reset_index()
+jumlah_per_departemen = jumlah_per_departemen.rename(columns={'Nama Pegawai': 'Jumlah Pegawai'})
+
+
+st.write(f"Pegawai Aktif pada Tahun {tahun_tertentu}:")
+st.dataframe(aktif_di_tahun[['Nama Pegawai', 'Tanggal Masuk', 'Tanggal Resign', 'Status', 'Department', 'Jabatan']])
+
+fig_dept = px.bar(jumlah_per_departemen,
+                  x='Department',
+                  y='Jumlah Pegawai',
+                  title=f"Jumlah pegawai Aktif per Departemen di Tahun {tahun_tertentu}",
+                  text='Jumlah Pegawai'
+                  )
+fig_dept.update_layout(
+  yaxis=dict(range=[0,80])
+)
+
+st.plotly_chart(fig_dept, use_container_width=True)
