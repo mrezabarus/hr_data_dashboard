@@ -7,10 +7,16 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 st.set_page_config(page_title="Dashboard Pegawai", layout="wide")
 st.title("Dashboard Utama Pegawai")
-st.markdown("Klik menu di kiri (sidebar) untuk menuju halaman lainnya, misalnya halaman **Sentimen**.")
 
 df = pd.read_csv('data/data_pegawai_hr_project.csv')
 
+csv = df.to_csv(index=False).encode('utf-8')
+st.download_button(
+    label="Download RAW Data",
+    data=csv,
+    file_name='data_pegawai.csv',
+    mime='text/csv'
+)
 ## Filter tahun
 tahun_tertentu = st.number_input("Pilih tahun", min_value=2000, max_value=2024, value=2023)
 
@@ -131,33 +137,3 @@ with col2:
 st.write(f"Pegawai Aktif pada Tahun {tahun_tertentu}:")
 st.dataframe(aktif_di_tahun[['Nama Pegawai', 'Tanggal Masuk', 'Tanggal Resign', 'Status', 'Department', 'Jabatan']])
 
-
-## membersihkan feedback yang hanya berisi tanda baca atau kosong
-df_cleaned = df[~df['Feedback'].str.match(r'^[.,\s]*$')]
-
-analyzer = SentimentIntensityAnalyzer()
-
-def translate_feedback(text):
-  return GoogleTranslator(source='auto', target='en').translate(text)
-
-
-def get_vader_sentiment(feedback):
-  english_text = translate_feedback(feedback)
-  sentiment = analyzer.polarity_scores(english_text)
-  if sentiment['compound'] >= 0.05:
-    return 'Positif'
-  elif sentiment['compound'] <= -0.05:
-    return 'Negatif'
-  else:
-    return 'Netral'
-
-df_cleaned['Sentimen'] = df_cleaned['Feedback'].apply(get_vader_sentiment)
-
-sentimen_count = df_cleaned['Sentimen'].value_counts().reset_index()
-sentimen_count.columns = ['Sentimen','Jumlah']
-
-st.write("Data Sentimen Pegawai menggunakan google translate dan vader untuk menentukan sentimennya:")
-st.dataframe(df_cleaned)
-
-fig_sentiment = px.bar(sentimen_count, x='Sentimen',y='Jumlah', color='Sentimen', title="Distribusi sentiment feedback pegawai")
-st.plotly_chart(fig_sentiment)
