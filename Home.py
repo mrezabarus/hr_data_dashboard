@@ -6,7 +6,7 @@ from deep_translator import GoogleTranslator
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 st.set_page_config(page_title="Dashboard Pegawai", layout="wide")
-st.title("Dashboard Utama Pegawai")
+st.title("Dashboard Pegawai")
 
 df = pd.read_csv('data/data_pegawai_hr_project.csv')
 
